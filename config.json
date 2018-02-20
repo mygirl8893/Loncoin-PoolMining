@@ -1,8 +1,8 @@
 {
-    "coin": "dashcoin",
-    "symbol": "DSH",
+    "coin": "loncoin",
+    "symbol": "LCN",
     "coinUnits": 1000000000000,
-    "coinDifficultyTarget": 120,
+    "coinDifficultyTarget": 140,
 
     "logging": {
         "files": {
@@ -19,7 +19,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "D6WLtrV1SBWV8HWQzQv8uuYuGy3uwZ8ah5iT5HovSqhTKMauquoTsKP8RBJzVqVesX87poYWQgkGWB4NWHJ6Ravv93v4BaE",
+        "poolAddress": "cnzZdvEKGbYYmFrwNL9PoiWsjWY8bJAWLTzk1wnAaa6KEHHEv7W716GCSApxvx7RZw5eCfWfo1bHpbodMY5v7pb62VhrAAgkEZ",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "ports": [
@@ -105,17 +105,17 @@
         "port": 8117,
         "blocks": 30,
         "payments": 30,
-        "password": "your_password"
+        "password": "x"
     },
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 42081
+        "port": 32112
     },
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 8082
+        "port": 32113
     },
 
     "redis": {
